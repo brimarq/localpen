@@ -1,0 +1,41 @@
+{
+  "name": "localpen",
+  "version": "1.0.0",
+  "description": "A simple app for developing CodePen pens in a local environment.",
+  "private": true,
+  "author": "Brian Marquis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brimarq/localpen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brimarq/localpen/issues"
+  },
+  "homepage": "https://github.com/brimarq/localpen#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@vxna/mini-html-webpack-template": "^1.0.0",
+    "autoprefixer": "^9.6.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "mini-html-webpack-plugin": "^2.0.0",
+    "morphdom": "^2.5.10",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-simple-vars": "^5.0.2",
+    "postcss-use": "^3.0.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

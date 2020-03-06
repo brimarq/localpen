@@ -1,0 +1,15 @@
+@use postcss-simple-vars;
+@use postcss-preset-env(stage: 0);
+
+$title-letter-spacing: .15em;
+
+section.hero > .hero-body > .container {
+  & h1.title {
+    font-weight: normal;
+    letter-spacing: $title-letter-spacing;
+    margin-right: calc($title-letter-spacing * -1);
+    & svg {
+      margin-right: .2em;
+    }
+  }
+}
